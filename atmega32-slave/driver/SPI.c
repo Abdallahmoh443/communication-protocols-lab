@@ -39,3 +39,11 @@ void SPI_SelectSlave(void) {
 void SPI_DeselectSlave(void) {
     SPI_PORT |= (1 << SS_PIN);
 }
+
+void SPI_WaitForMasterSelection(void){
+    while (PINB & (1 << SS_PIN)); // Wait while SS is 1 
+}
+
+void SPI_WaitForMasterDeselection(void){
+    while (!(PINB & (1 << SS_PIN))); // Wait while SS is 0
+}

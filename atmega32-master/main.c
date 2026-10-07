@@ -4,14 +4,10 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "middleware/driver/SPI.h"
-#include "middleware/driver/I2C.h"
+#include "driver/SPI.h"
+#include "driver/I2C.h"
 
 #define DS1307_I2C_ADDR 0xD0
-
-// uint8_t BCDToDec(uint8_t val) {
-//     return ((val / 16 * 10) + (val % 16));
-// }
 
 uint8_t BCDToDec(uint8_t val) {
     return (((val >> 4) * 10) + (val & 0x0F));
@@ -78,7 +74,6 @@ int main(void) {
 
         for (uint8_t i = 0; i < 7; i++) {
             SPI_Transfer(rtc_data[i]);
-            _delay_us(50);
         }
 
         _delay_us(20);

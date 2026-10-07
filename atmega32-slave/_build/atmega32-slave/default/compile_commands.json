@@ -1,26 +1,20 @@
 [
 {
   "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c",
+  "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c",
+  "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o"
+},
+{
+  "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
+  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c",
+  "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c",
+  "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o"
+},
+{
+  "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
   "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c",
   "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c",
   "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o"
-},
-{
-  "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
-  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c",
-  "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c",
-  "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o"
-},
-{
-  "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
-  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c",
-  "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c",
-  "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o"
-},
-{
-  "directory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default",
-  "command": "/opt/microchip/xc8/v3.10/bin/xc8-cc -DXPRJ_default=default -D__ATmega32__ -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -o CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o -c /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c",
-  "file": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c",
-  "output": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o"
 }
 ]

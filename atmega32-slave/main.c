@@ -5,8 +5,8 @@
 #include <avr/io.h>
 #include <stdio.h>
 #include <util/delay.h>
-#include "middleware/driver/SPI.h"
-#include "middleware/driver/USART.h"
+#include "driver/SPI.h"
+#include "driver/USART.h"
 
 /* Light 2-digit ASCII formatter (SRAM safe) */
 static void Transmit2Digits(uint8_t number) {
@@ -23,8 +23,9 @@ int main(void) {
     USART_TransmitString("SPI Slave Receiver Ready\r\n");
 
     while (1) {
-        /* 1. Wait until Master pulls SS LOW to initiate a frame */
-        while (PINB & (1 << SS_PIN));
+        /* 1. Wait until Master selection to initiate a frame */
+        SPI_WaitForMasterSelection();
+
 
         /* 2. Read Sync Header Byte */
         uint8_t sync = SPI_Transfer(0xFF);
@@ -34,10 +35,10 @@ int main(void) {
                 rtc_buffer[i] = SPI_Transfer(0xFF);
             }
 
-            /* 3. Wait until Master pulls SS HIGH (end of frame) */
-            while (!(PINB & (1 << SS_PIN)));
+            /* 3. Wait until Master deselects (end of frame) */
+            SPI_WaitForMasterDeselection();
 
-            /* 4. Format Output without snprintf memory overhead */
+            /* 4. Format Output */
             USART_TransmitString("Time: ");
             Transmit2Digits(rtc_buffer[2]); /* Hours */
             USART_TransmitChar(':');

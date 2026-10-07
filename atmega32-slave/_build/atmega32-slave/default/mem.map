@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
-                              CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o (__udivmodsi4)
+                              CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o (__udivmodsi4)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
                               CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o (__do_copy_data)
 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
@@ -15,47 +15,25 @@ Discarded input sections
 
  .data          0x0000000000000000        0x0 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
  .bss           0x0000000000000000        0x0 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
+ .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .text.SPI_MasterInit
+                0x0000000000000000       0x50 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .text.SPI_SelectSlave
+                0x0000000000000000       0x22 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .text.SPI_DeselectSlave
+                0x0000000000000000       0x22 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .text.SPI_SlaveReceive
+                0x0000000000000000       0x24 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .text.USART_ReceiveChar
+                0x0000000000000000       0x24 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
  .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
  .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
  .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_Init
-                0x0000000000000000       0x7a CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_Start
-                0x0000000000000000       0x28 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_Stop
-                0x0000000000000000       0x1a CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_Write
-                0x0000000000000000       0x38 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_ReadAck
-                0x0000000000000000       0x2e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text.I2C_ReadNack
-                0x0000000000000000       0x2e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_info    0x0000000000000000      0x343 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_abbrev  0x0000000000000000       0x94 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_aranges
-                0x0000000000000000       0x48 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_ranges  0x0000000000000000       0x38 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_line    0x0000000000000000      0x1df CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_str     0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .comment       0x0000000000000000       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .debug_frame   0x0000000000000000       0xe0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
- .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .text.SPI_MasterInit
-                0x0000000000000000       0x50 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .text.SPI_SelectSlave
-                0x0000000000000000       0x22 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .text.SPI_DeselectSlave
-                0x0000000000000000       0x22 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .text          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
- .data          0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
- .bss           0x0000000000000000        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
- .text.USART_ReceiveChar
-                0x0000000000000000       0x24 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
  .text          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .data          0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .bss           0x0000000000000000        0x0 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
@@ -134,10 +112,9 @@ Linker script and memory map
 
 LOAD /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
                 0x0000000000000001                __MPLAB_BUILD = 0x1
+LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
 LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
-LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o
-LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
-LOAD CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
 START GROUP
 LOAD /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a
 LOAD /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libm.a
@@ -393,10 +370,10 @@ END GROUP
 
 .comment        0x0000000000000000       0x5b
  *(.comment)
- .comment       0x0000000000000000       0x2f CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
+ .comment       0x0000000000000000       0x2f CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
                                          0x30 (size before relaxing)
- .comment       0x000000000000002f       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .comment       0x000000000000002f       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .comment       0x000000000000002f       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
  .comment       0x000000000000002f       0x2c /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
                                          0x2d (size before relaxing)
  .comment       0x000000000000005b       0x2d /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(_Exit.o)
@@ -434,51 +411,51 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000       0xa0
+.debug_aranges  0x0000000000000000       0xb8
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x28 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
+                0x0000000000000000       0x58 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
  .debug_aranges
-                0x0000000000000028       0x40 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
+                0x0000000000000058       0x38 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
  .debug_aranges
-                0x0000000000000068       0x38 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+                0x0000000000000090       0x28 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000      0xe64
+.debug_info     0x0000000000000000      0xecb
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x4e6 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
- .debug_info    0x00000000000004e6      0x308 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_info    0x00000000000007ee      0x303 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_info    0x0000000000000af1      0x373 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .debug_info    0x00000000000004e6      0x375 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_info    0x000000000000085b      0x368 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .debug_info    0x0000000000000bc3      0x308 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
-.debug_abbrev   0x0000000000000000      0x65e
+.debug_abbrev   0x0000000000000000      0x678
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x4a3 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
- .debug_abbrev  0x00000000000004a3       0x97 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_abbrev  0x000000000000053a       0x6f CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_abbrev  0x00000000000005a9       0xb5 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .debug_abbrev  0x00000000000004a3       0x89 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_abbrev  0x000000000000052c       0xb5 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .debug_abbrev  0x00000000000005e1       0x97 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
-.debug_line     0x0000000000000000      0x5f4
+.debug_line     0x0000000000000000      0x64c
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x116 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
- .debug_line    0x0000000000000116      0x1b0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_line    0x00000000000002c6      0x19b CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_line    0x0000000000000461      0x193 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .debug_line    0x0000000000000116      0x20e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_line    0x0000000000000324      0x188 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .debug_line    0x00000000000004ac      0x1a0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
-.debug_frame    0x0000000000000000      0x1a8
+.debug_frame    0x0000000000000000      0x208
  *(.debug_frame)
- .debug_frame   0x0000000000000000       0x60 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_frame   0x0000000000000060       0xb4 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_frame   0x0000000000000114       0x94 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .debug_frame   0x0000000000000000      0x114 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_frame   0x0000000000000114       0x94 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .debug_frame   0x00000000000001a8       0x60 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
 .debug_str      0x0000000000000000      0x196
  *(.debug_str)
  .debug_str     0x0000000000000000      0x196 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
+ .debug_str     0x0000000000000196        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_str     0x0000000000000196        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
  .debug_str     0x0000000000000196        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_str     0x0000000000000196        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_str     0x0000000000000196        0x0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
 
 .debug_loc
  *(.debug_loc)
@@ -501,11 +478,11 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000       0x70
+.debug_ranges   0x0000000000000000       0x88
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000       0x18 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
- .debug_ranges  0x0000000000000018       0x30 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
- .debug_ranges  0x0000000000000048       0x28 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
+ .debug_ranges  0x0000000000000000       0x48 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+ .debug_ranges  0x0000000000000048       0x28 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+ .debug_ranges  0x0000000000000070       0x18 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
 .debug_macro
  *(.debug_macro)
@@ -518,100 +495,112 @@ LOAD data_init
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
 
-.text.main      0x00000000000000b0       0xf4
- .text.main     0x00000000000000b0       0xf4 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
+.text.main      0x00000000000000b0       0xd0
+ .text.main     0x00000000000000b0       0xd0 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
                 0x00000000000000b0                main
 
 .text.USART_Init
-                0x00000000000001a4       0xac
+                0x0000000000000180       0xac
  .text.USART_Init
-                0x00000000000001a4       0xac CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
-                0x00000000000001a4                USART_Init
+                0x0000000000000180       0xac CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+                0x0000000000000180                USART_Init
 
 .text.Transmit2Digits
-                0x0000000000000250       0x52
+                0x000000000000022c       0x52
  .text.Transmit2Digits
-                0x0000000000000250       0x52 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
+                0x000000000000022c       0x52 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o
 
 .text.libgcc.div
-                0x00000000000002a2       0x44
+                0x000000000000027e       0x44
  .text.libgcc.div
-                0x00000000000002a2       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
-                0x00000000000002a2                __udivmodsi4
+                0x000000000000027e       0x44 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x000000000000027e                __udivmodsi4
 
 .text.SPI_SlaveInit
-                0x00000000000002e6       0x3e
+                0x00000000000002c2       0x3e
  .text.SPI_SlaveInit
-                0x00000000000002e6       0x3e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
-                0x00000000000002e6                SPI_SlaveInit
+                0x00000000000002c2       0x3e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+                0x00000000000002c2                SPI_SlaveInit
 
 .text.USART_TransmitString
-                0x0000000000000324       0x3e
+                0x0000000000000300       0x3e
  .text.USART_TransmitString
-                0x0000000000000324       0x3e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
-                0x0000000000000324                USART_TransmitString
+                0x0000000000000300       0x3e CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+                0x0000000000000300                USART_TransmitString
 
 .text.USART_TransmitChar
-                0x0000000000000362       0x36
+                0x000000000000033e       0x36
  .text.USART_TransmitChar
-                0x0000000000000362       0x36 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o
-                0x0000000000000362                USART_TransmitChar
+                0x000000000000033e       0x36 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/USART.c.o
+                0x000000000000033e                USART_TransmitChar
 
 .text.SPI_Transfer
-                0x0000000000000398       0x34
+                0x0000000000000374       0x34
  .text.SPI_Transfer
-                0x0000000000000398       0x34 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o
-                0x0000000000000398                SPI_Transfer
+                0x0000000000000374       0x34 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+                0x0000000000000374                SPI_Transfer
 
-.text.exit      0x00000000000003cc       0x16
- .text.exit     0x00000000000003cc       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
-                0x00000000000003cc                exit
+.text.SPI_WaitForMasterSelection
+                0x00000000000003a8       0x26
+ .text.SPI_WaitForMasterSelection
+                0x00000000000003a8       0x26 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+                0x00000000000003a8                SPI_WaitForMasterSelection
 
-.text           0x00000000000003e2        0x4
- .text          0x00000000000003e2        0x4 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
-                0x00000000000003e2                __vector_1
-                0x00000000000003e2                __vector_12
-                0x00000000000003e2                __bad_interrupt
-                0x00000000000003e2                __vector_6
-                0x00000000000003e2                __vector_3
-                0x00000000000003e2                __vector_11
-                0x00000000000003e2                __vector_13
-                0x00000000000003e2                __vector_17
-                0x00000000000003e2                __vector_19
-                0x00000000000003e2                __vector_7
-                0x00000000000003e2                __vector_5
-                0x00000000000003e2                __vector_4
-                0x00000000000003e2                __vector_9
-                0x00000000000003e2                __vector_2
-                0x00000000000003e2                __vector_15
-                0x00000000000003e2                __vector_8
-                0x00000000000003e2                __vector_14
-                0x00000000000003e2                __vector_10
-                0x00000000000003e2                __vector_16
-                0x00000000000003e2                __vector_18
-                0x00000000000003e2                __vector_20
+.text.SPI_WaitForMasterDeselection
+                0x00000000000003ce       0x26
+ .text.SPI_WaitForMasterDeselection
+                0x00000000000003ce       0x26 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/driver/SPI.c.o
+                0x00000000000003ce                SPI_WaitForMasterDeselection
 
-.text._Exit     0x00000000000003e6        0x4
- .text._Exit    0x00000000000003e6        0x4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(_Exit.o)
-                0x00000000000003e6                _Exit
+.text.exit      0x00000000000003f4       0x16
+ .text.exit     0x00000000000003f4       0x16 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
+                0x00000000000003f4                exit
+
+.text           0x000000000000040a        0x4
+ .text          0x000000000000040a        0x4 /home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8/avr/lib/avr5/crtatmega32.o
+                0x000000000000040a                __vector_1
+                0x000000000000040a                __vector_12
+                0x000000000000040a                __bad_interrupt
+                0x000000000000040a                __vector_6
+                0x000000000000040a                __vector_3
+                0x000000000000040a                __vector_11
+                0x000000000000040a                __vector_13
+                0x000000000000040a                __vector_17
+                0x000000000000040a                __vector_19
+                0x000000000000040a                __vector_7
+                0x000000000000040a                __vector_5
+                0x000000000000040a                __vector_4
+                0x000000000000040a                __vector_9
+                0x000000000000040a                __vector_2
+                0x000000000000040a                __vector_15
+                0x000000000000040a                __vector_8
+                0x000000000000040a                __vector_14
+                0x000000000000040a                __vector_10
+                0x000000000000040a                __vector_16
+                0x000000000000040a                __vector_18
+                0x000000000000040a                __vector_20
+
+.text._Exit     0x000000000000040e        0x4
+ .text._Exit    0x000000000000040e        0x4 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(_Exit.o)
+                0x000000000000040e                _Exit
 
 .text.__dummy_fini
-                0x00000000000003ea        0x2
+                0x0000000000000412        0x2
  .text.__dummy_fini
-                0x00000000000003ea        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
-                0x00000000000003ea                _fini
+                0x0000000000000412        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
+                0x0000000000000412                _fini
 
 .text.__dummy_funcs_on_exit
-                0x00000000000003ec        0x2
+                0x0000000000000414        0x2
  .text.__dummy_funcs_on_exit
-                0x00000000000003ec        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
-                0x00000000000003ec                __funcs_on_exit
+                0x0000000000000414        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
+                0x0000000000000414                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x00000000000003ee        0x2
+                0x0000000000000416        0x2
  .text.__dummy_simulator_exit
-                0x00000000000003ee        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
-                0x00000000000003ee                __simulator_exit
+                0x0000000000000416        0x2 /opt/microchip/xc8/v3.10/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/libc.a(exit.o)
+                0x0000000000000416                __simulator_exit
 
-.rodata         0x0000000000800060       0x33 load address 0x00000000000003f0
+.rodata         0x0000000000800060       0x33 load address 0x0000000000000418
  .rodata        0x0000000000800060       0x33 CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o

@@ -5,3 +5,12 @@
 1	98	1791378320549174857	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/HAL/DIO.c.o	1ef35ed45d137854
 1	77	1791382379325229834	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o	4b097a90b2acafa5
 85	105	1791384431831681987	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf	a5692af967fd4df8
+1	75	1791385400637291476	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o	afef2ef39c5b7ec0
+1	83	1791385400635857553	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c.o	c9230d2844713743
+2	102	1791385400637497370	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o	da23fdadf367428a
+102	121	1791385400736856683	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf	f802220e9de07f1a
+1	77	1791387070298295986	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o	afef2ef39c5b7ec0
+1	99	1791387070299156707	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o	da23fdadf367428a
+99	119	1791387070396295108	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf	f802220e9de07f1a
+1	111	1791388062526264223	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o	da23fdadf367428a
+111	129	1791388062636263213	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf	f802220e9de07f1a

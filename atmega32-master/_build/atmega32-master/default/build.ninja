@@ -44,6 +44,26 @@ cmake_ninja_workdir = /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/
 
 build cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile: phony || .
 
+build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
+  DEFINES = -DXPRJ_default=default -D__ATmega32__
+  DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c.o.d
+  FLAGS = -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem
+  OBJECT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver
+  TARGET_COMPILE_PDB = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
+
+build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
+  DEFINES = -DXPRJ_default=default -D__ATmega32__
+  DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o.d
+  FLAGS = -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem
+  OBJECT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
+  OBJECT_FILE_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver
+  TARGET_COMPILE_PDB = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/
+  TARGET_PDB = ""
+  TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
+
 build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
   DEFINES = -DXPRJ_default=default -D__ATmega32__
   DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o.d
@@ -54,42 +74,12 @@ build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Do
   TARGET_PDB = ""
   TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
 
-build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
-  DEFINES = -DXPRJ_default=default -D__ATmega32__
-  DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c.o.d
-  FLAGS = -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem
-  OBJECT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-  OBJECT_FILE_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver
-  TARGET_COMPILE_PDB = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/
-  TARGET_PDB = ""
-  TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-
-build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
-  DEFINES = -DXPRJ_default=default -D__ATmega32__
-  DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c.o.d
-  FLAGS = -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem
-  OBJECT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-  OBJECT_FILE_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver
-  TARGET_COMPILE_PDB = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/
-  TARGET_PDB = ""
-  TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-
-build CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o: C_COMPILER__atmega32_master_default_default_XC8_compile_unscanned_ /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c || cmake_object_order_depends_target_atmega32_master_default_default_XC8_compile
-  DEFINES = -DXPRJ_default=default -D__ATmega32__
-  DEP_FILE = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o.d
-  FLAGS = -c -mcpu=ATmega32 -x c -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem
-  OBJECT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-  OBJECT_FILE_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver
-  TARGET_COMPILE_PDB = CMakeFiles/atmega32_master_default_default_XC8_compile.dir/
-  TARGET_PDB = ""
-  TARGET_SUPPORT_DIR = CMakeFiles/atmega32_master_default_default_XC8_compile.dir
-
 
 
 #############################################
 # Object library atmega32_master_default_default_XC8_compile
 
-build atmega32_master_default_default_XC8_compile: phony CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o
+build atmega32_master_default_default_XC8_compile: phony CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o
 
 # =============================================================================
 # Object build statements for EXECUTABLE target atmega32_master_default_image_hL_t2ddL
@@ -108,7 +98,7 @@ build cmake_object_order_depends_target_atmega32_master_default_image_hL_t2ddL: 
 #############################################
 # Link the executable /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf
 
-build /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf: C_EXECUTABLE_LINKER__atmega32_master_default_image_hL_t2ddL_ CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o || atmega32_master_default_default_XC8_compile
+build /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf: C_EXECUTABLE_LINKER__atmega32_master_default_image_hL_t2ddL_ CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/I2C.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/driver/SPI.c.o CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o || atmega32_master_default_default_XC8_compile
   LINK_FLAGS = -Wl,-Map=mem.map -mcpu=ATmega32 -Wl,--defsym=__MPLAB_BUILD=1 -mdfp=/home/mahmoud/.mchp_packs/Microchip/ATmega_DFP/3.6.299/xc8 -Wl,--gc-sections -O0 -ffunction-sections -fdata-sections -fshort-enums -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem -Wl,--memorysummary,memoryfile.xml
   OBJECT_DIR = CMakeFiles/atmega32_master_default_image_hL_t2ddL.dir
   POST_BUILD = cd /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master && /opt/microchip/xc8/v3.10/bin/avr-objcopy -O ihex default.elf default.hex && cd /home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master && /opt/microchip/xc8/v3.10/bin/avr-objdump --disassemble --wide --demangle --line-numbers --section-headers --source default.elf > default.lss

@@ -16,10 +16,9 @@ foreach(source_file ${atmega32_master_default_default_XC8_FILE_TYPE_assemblePrep
 endforeach()
 
 set(atmega32_master_default_default_XC8_FILE_TYPE_compile
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c"
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../middleware/driver/I2C.c"
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../middleware/driver/SPI.c"
-    "${CMAKE_CURRENT_SOURCE_DIR}/../../../middleware/driver/USART.c")
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../driver/I2C.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../driver/SPI.c"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../../main.c")
 set_source_files_properties(${atmega32_master_default_default_XC8_FILE_TYPE_compile} PROPERTIES LANGUAGE C)
 set(atmega32_master_default_default_XC8_FILE_TYPE_link)
 set(atmega32_master_default_default_XC8_FILE_TYPE_objcopy_avr)

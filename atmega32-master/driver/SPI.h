@@ -17,5 +17,7 @@ void SPI_SlaveInit(void);
 uint8_t SPI_Transfer(uint8_t data);
 void SPI_SelectSlave(void);
 void SPI_DeselectSlave(void);
+void SPI_WaitForMasterSelection(void);
+void SPI_WaitForMasterDeselection(void);
 
 #endif /* SPI_H_ */
