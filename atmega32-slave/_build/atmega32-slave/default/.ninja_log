@@ -1,0 +1,14 @@
+# ninja log v7
+1	80	1791378605202648149	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o	e47bd8068330b0a6
+1	83	1791380287829789231	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o	d9477199d18fb917
+1	91	1791378605202815230	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o	fafb0e92f961add3
+1	94	1791378605202487219	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o	1e6d7144074573bb
+0	95	1791378605202296855	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/HAL/DIO.c.o	e4e7bb0d3b334113
+83	103	1791380287911788716	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/out/atmega32-slave/default.elf	4cf8adc7a295e8aa
+2	83	1791382426038124784	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/SPI.c.o	e47bd8068330b0a6
+2	83	1791382426038321549	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/USART.c.o	fafb0e92f961add3
+2	84	1791382426037919433	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/middleware/driver/I2C.c.o	1e6d7144074573bb
+2	87	1791382426036965321	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o	d9477199d18fb917
+87	105	1791382426121964112	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/out/atmega32-slave/default.elf	1c1a0b3de6887a4
+0	83	1791383126872133411	CMakeFiles/atmega32_slave_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/main.c.o	d9477199d18fb917
+83	99	1791383126955132451	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/out/atmega32-slave/default.elf	1c1a0b3de6887a4

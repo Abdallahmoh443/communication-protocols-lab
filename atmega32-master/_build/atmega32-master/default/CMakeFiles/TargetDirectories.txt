@@ -1,0 +1,4 @@
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/_build/atmega32-master/default/CMakeFiles/atmega32_master_default_default_XC8_compile.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/_build/atmega32-master/default/CMakeFiles/atmega32_master_default_image_hL_t2ddL.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/_build/atmega32-master/default/CMakeFiles/edit_cache.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/_build/atmega32-master/default/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/cmake/atmega32-master/default",
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}/_build/atmega32-master/default",
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ]
+}

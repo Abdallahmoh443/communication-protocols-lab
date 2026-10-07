@@ -1,0 +1,4 @@
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_default_XC8_compile.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/atmega32_slave_default_image_vR9xwjAZ.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/edit_cache.dir
+/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-slave/_build/atmega32-slave/default/CMakeFiles/rebuild_cache.dir

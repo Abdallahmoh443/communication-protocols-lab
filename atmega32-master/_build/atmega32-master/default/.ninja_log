@@ -1,0 +1,7 @@
+# ninja log v7
+0	102	1791383927995226523	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/main.c.o	da23fdadf367428a
+1	76	1791382755400806023	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/SPI.c.o	9b74209ed5c254f3
+1	85	1791384431747682335	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/I2C.c.o	8169ab184e84605e
+1	98	1791378320549174857	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/HAL/DIO.c.o	1ef35ed45d137854
+1	77	1791382379325229834	CMakeFiles/atmega32_master_default_default_XC8_compile.dir/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/middleware/driver/USART.c.o	4b097a90b2acafa5
+85	105	1791384431831681987	/home/mahmoud/Documents/faculty-temps/4th-year/semester-1/labs/lab1/communication-atmega32/atmega32-master/out/atmega32-master/default.elf	a5692af967fd4df8
